@@ -25,14 +25,20 @@ export const StyledArticleSection = styled.section`
   }
 
   & .cta {
-    padding: 1.2rem 0 2rem;
-    /* background-color: ${({ theme }) => theme.color.white}; */
+    padding: 2rem 4% 3rem;
     /* border: 1px solid ${({ theme }) => theme.color.veryDarkCyan}; */
-	box-shadow: 0 -0px 4px -1px ${({ theme }) => theme.color.grayishBlue};
-	display: grid;
-	align-items: center; 
-	justify-items: center;
-	text-align: center;
+    box-shadow: 0 -0px 4px -1px ${({ theme }) => theme.color.grayishBlue};
+    display: grid;
+    align-items: center; 
+    justify-items: center;
+    text-align: center;
+    max-width: 28rem;
+    margin: auto; 
+    position: relative;
+    bottom: -7em;
+
+    border-radius: 8px;
+    background-color: ${({ theme }) => theme.color.white};
   }
 
   & .cta h2 {

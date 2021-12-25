@@ -12,7 +12,7 @@ let theme = {
     veryDarkCyan: "hsl(192, 100%, 9%)",
     grayishBlue: "hsl(208, 11%, 55%)",
     pink: "hsl(322, 100%, 66%)",
-    white: "hsl(0, 0%, 100%",
+    white: "hsl(0, 0%, 100%)",
   },
 };
 
