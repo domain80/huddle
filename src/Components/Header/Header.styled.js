@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  background: url(./images/bg-hero-mobile.svg) no-repeat;
+  background: url(./images/bg-hero-mobile.svg) no-repeat
+    ${({ theme }) => theme.color.veryPaleCyan};
   background-position: center;
   background-size: cover;
-  padding: 0 5% 0;
+  padding: 0 8% 0;
 
   & nav {
     display: flex;
@@ -23,8 +24,12 @@ export const StyledHeader = styled.header`
   & article {
     text-align: center;
     display: grid;
-    gap: 1em;
-    padding: 1em;
+    gap: 0.9em;
+    padding: 2em;
+  }
+  & article h1 {
+    margin: 1em 0 0;
+    /* padding: 0 1em; */
   }
   & article button {
     width: max-content;
@@ -32,6 +37,6 @@ export const StyledHeader = styled.header`
   }
 
   & .illustrationMockup {
-    margin: 3em 2rem 1em;
+    margin: 3em 0rem 1em;
   }
 `;

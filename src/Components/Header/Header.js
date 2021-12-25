@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../Logo";
-import IllustrationMockups from "../IllustrationMockups";
+import Logo from "../svgs/Logo";
+import IllustrationMockups from "../svgs/IllustrationMockups";
 import { StyledHeader } from "./Header.styled";
 import { StyledButton } from "../styled/Button/Button.styled";
 
