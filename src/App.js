@@ -1,11 +1,16 @@
 import React from "react";
-import { Container } from "./Components/styled/Container.styled";
+
+import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from "./Components/Global.styled";
+import Header from "./Components/Header/Header";
+import theme from "./theme";
 
 function App() {
   return (
-    <Container>
-      <h3>this is an emotion</h3>
-    </Container>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Header />
+    </ThemeProvider>
   );
 }
 
