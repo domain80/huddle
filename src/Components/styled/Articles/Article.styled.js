@@ -23,7 +23,6 @@ export const StyledArticleSection = styled.section`
   & article p {
     color: ${({ theme }) => theme.color.grayishBlue};
     /* padding: 0 5%; */
-    line-height: 1.5em;
     font-size: clamp(0.75rem 30vw 1.2rem);
   }
 
@@ -56,7 +55,9 @@ export const StyledArticleSection = styled.section`
 
 
   @media screen and (min-width: 1000px){
-    article {
+    article { 
+      text-align: left;
+      /* padding-left: 8rem; */
       /* justify-content: space-between; */
       grid-template-areas: 
       "pic txt";
@@ -71,6 +72,7 @@ export const StyledArticleSection = styled.section`
       }
     }
     article:nth-child(even) {
+      /* padding-right: 8rem; */
       grid-template-areas: "txt pic";
 
       div {
