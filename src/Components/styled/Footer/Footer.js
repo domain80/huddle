@@ -33,14 +33,17 @@ function Footer() {
         <li>Blog</li>
         <li>Contact Us</li>
       </ul>
-      <small>&copy; Copyright 2018 Huddle. All rights reserved.</small>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor
-        </a>
-        . Coded by <a href="#">David Mainoo</a>.
-      </p>
+      <small>
+        <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor
+          </a>
+          . Coded by <a href="#">David Mainoo</a>.
+        </p>
+      </small>
     </StyledFooter>
   );
 }

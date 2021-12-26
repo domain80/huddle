@@ -27,5 +27,9 @@ a {
 	text-decoration: none;
 }
 
+.appContainer {
+	max-width: 1920px;
+	margin: auto;
+}
  
 `;

@@ -24,4 +24,7 @@ a {
 	text-decoration: none;
 }
 
+  .appContainer {
+	  margin: 5rem;
+  }
 `;

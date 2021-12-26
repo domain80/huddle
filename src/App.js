@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./Components/Global.styled";
@@ -11,9 +11,11 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Header />
-      <Article />
-      <Footer />
+      <div className="appContainer">
+        <Header />
+        <Article />
+        <Footer />
+      </div>
     </ThemeProvider>
   );
 }

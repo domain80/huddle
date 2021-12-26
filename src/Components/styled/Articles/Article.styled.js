@@ -5,15 +5,18 @@ export const StyledArticleSection = styled.section`
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  background-color: ${({ theme }) => theme.color.white};
 
   & article {
     padding: 2.5em 5%;
     display: grid;
-    justify-items: space-between;
+    justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
     text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    
+
     box-shadow: 0 0 3px ${({ theme }) => theme.color.grayishBlue};
     border-radius: 0.4rem;
   }
@@ -32,7 +35,7 @@ export const StyledArticleSection = styled.section`
     align-items: center; 
     justify-items: center;
     text-align: center;
-    max-width: 28rem;
+    max-width: 35rem;
     margin: auto; 
     position: relative;
     bottom: -7em;
@@ -49,5 +52,31 @@ export const StyledArticleSection = styled.section`
 
   & .cta button {
 	  box-shadow: 0 1px 4px -0.4px ${({ theme }) => theme.color.grayishBlue};
+  }
+
+
+  @media screen and (min-width: 1000px){
+    article {
+      /* justify-content: space-between; */
+      grid-template-areas: 
+      "pic txt";
+
+      div {
+        grid-area: txt;
+        max-width: 30rem;
+        margin: 0 0 0 auto;
+      }
+      svg {
+        grid-area: pic;
+      }
+    }
+    article:nth-child(even) {
+      grid-template-areas: "txt pic";
+
+      div {
+        margin: 0 auto 0 0 ;
+      }
+    }
+    
   }
 `;

@@ -35,4 +35,10 @@ export const StyledFooter = styled.footer`
   .logo {
     width: 12rem;
   }
+
+  small {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+  }
 `;
