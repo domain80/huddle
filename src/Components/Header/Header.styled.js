@@ -42,6 +42,7 @@ export const StyledHeader = styled.header`
   article h1 {
     margin: 1em 0 0;
     font-size: 2.8rem;
+    line-height: 1em;
     /* padding: 0 1em; */
   }
   article p {
