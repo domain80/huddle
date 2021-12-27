@@ -79,8 +79,9 @@ Users should be able to:
 
 ### Useful resources
 
-- [react-icons](https://www.example.com) - This helped me for easily add svgs
-  icons to my page. I really liked this pattern and will use it going forward.
+- [react-icons](https://react-icons.github.io/react-icons) - This helped me for
+  easily add svgs icons to my page. I really liked this pattern and will use it
+  going forward.
 
 ## Author
 
