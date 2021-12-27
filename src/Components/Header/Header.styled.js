@@ -9,7 +9,7 @@ export const StyledHeader = styled.header`
 
   & .headerContent {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     justify-content: center;
     align-items: center;
     gap: 5rem;
@@ -41,6 +41,7 @@ export const StyledHeader = styled.header`
   }
   article h1 {
     margin: 1em 0 0;
+    font-size: 2.8rem;
     /* padding: 0 1em; */
   }
   article p {
@@ -55,12 +56,12 @@ export const StyledHeader = styled.header`
     margin: 3em 0rem 1em;
   }
 
-  @media screen and (min-width: 1100px) {
-    padding: 0 8% 3em;
+  @media screen and (min-width: 781px) {
+    padding: 0 8% 6em;
 
-    & article {
+    article {
       text-align: left;
-      gap: 1.5rem;
+      gap: 8%;
 
       h1 {
         font-size: 2.3rem;
