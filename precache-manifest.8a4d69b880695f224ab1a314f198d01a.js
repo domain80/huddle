@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "d0e96362b416fad5502a",
-    "url": "/huddle/static/js/main.d0e96362.chunk.js"
+    "revision": "00f5eb4603da170a0b91",
+    "url": "/huddle/static/js/main.00f5eb46.chunk.js"
   },
   {
     "revision": "b0b17ac34351a90ed05e",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/huddle/static/js/runtime~main.429adb54.js"
   },
   {
-    "revision": "fc2b0e78644c549e3d046357413493fc",
+    "revision": "6140924fef3d2e918c59dec84ebc81b8",
     "url": "/huddle/index.html"
   }
 ];

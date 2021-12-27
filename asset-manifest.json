@@ -1,11 +1,11 @@
 {
-  "main.js": "/huddle/static/js/main.d0e96362.chunk.js",
-  "main.js.map": "/huddle/static/js/main.d0e96362.chunk.js.map",
+  "main.js": "/huddle/static/js/main.00f5eb46.chunk.js",
+  "main.js.map": "/huddle/static/js/main.00f5eb46.chunk.js.map",
   "static/js/1.b0b17ac3.chunk.js": "/huddle/static/js/1.b0b17ac3.chunk.js",
   "static/js/1.b0b17ac3.chunk.js.map": "/huddle/static/js/1.b0b17ac3.chunk.js.map",
   "runtime~main.js": "/huddle/static/js/runtime~main.429adb54.js",
   "runtime~main.js.map": "/huddle/static/js/runtime~main.429adb54.js.map",
   "index.html": "/huddle/index.html",
-  "precache-manifest.1244542f4d6cb388495175a38a67b1f4.js": "/huddle/precache-manifest.1244542f4d6cb388495175a38a67b1f4.js",
+  "precache-manifest.8a4d69b880695f224ab1a314f198d01a.js": "/huddle/precache-manifest.8a4d69b880695f224ab1a314f198d01a.js",
   "service-worker.js": "/huddle/service-worker.js"
 }
