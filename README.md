@@ -28,14 +28,15 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
-![](./screenshot.jpg)
+The image is quite large so for best experiences...
+click here to view [mobile screenshot](https://github.com/David-Main/huddle/blob/main/Screenshot_2021-12-30%20Huddle(1).png)
+click here to view [desktop screenshot](https://github.com/David-Main/huddle/blob/main/Screenshot_2021-12-30%20Huddle.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/David-Main/huddle)
+- Solution URL: [https://github.com/David-Main/huddle](https://github.com/David-Main/huddle)
 - Live Site URL:
-  [Add live site URL here](https://david-main.github.io/huddle/)
+  [https://david-main.github.io/huddle/](https://david-main.github.io/huddle/)
 
 ## My process
 
