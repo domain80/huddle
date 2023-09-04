@@ -34,9 +34,9 @@ click here to view [desktop screenshot](https://github.com/David-Main/huddle/blo
 
 ### Links
 
-- Solution URL: [https://github.com/David-Main/huddle](https://github.com/David-Main/huddle)
+- Solution URL: [https://github.com/1jack80/huddle](https://github.com/David-Main/huddle)
 - Live Site URL:
-  [https://david-main.github.io/huddle/](https://david-main.github.io/huddle/)
+  [https://1jack80.github.io/huddle/](https://david-main.github.io/huddle/)
 
 ## My process
 
